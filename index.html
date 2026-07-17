@@ -9,8 +9,14 @@
 </head>
 
 <body>
+	<header>
+		<nav>
+			<a href="index.html"> Strona główna.
+				<a href="nauka-html.html"> Nauka html.
+		</nav>
+	</header>
 	<main>
-		<header>
+		<header id="top">
 			<h1>
 				Łukasz Łuczyński - strona internetowa
 			</h1>
@@ -18,10 +24,12 @@
 		<section>
 			<h2>
 				Cześć!! Kim jestem?
+				<img src="Łuki.jpg" alt="Łukasz Łuczyński"/>
 			</h2>
 			<p>
 				Mam na imię Łukasz.
-				Na co dzień pracuję w branży paliwowej dla prywatnej grupy multienergetycznej UNIMOT.
+				Na co dzień pracuję w branży paliwowej dla prywatnej grupy multienergetycznej <a
+					href="https://www.unimot.pl" target="_blank"> UNIMOT</a>
 				Mam 40 lat. Moją największą pasją jest jazda na rowerze w każdej postaci czyli jednodniowe wypady,
 				krótkie trasy z rodziną oraz dłuższe wyjazdy z noclegami pod namiotem.
 			</p>
@@ -43,12 +51,19 @@
 					zrobić coś dla ludzi, którzy takiej strony potrzebują np. dla swojej firmy lub prywatnie.
 				</p>
 			</article>
-<article>
-	<h3>
-		git
-	</h3>
-	<p>to jest treść dotycząca GITa</p>
-</article>
+			<article id="Jest git">
+				<h3>
+
+					Git
+
+				</h3>
+				<p><i>
+						to jest treść dotycząca GITa
+					</i></p>
+					<p>
+						Poczytaj więcej o programie <a href="#Jest git"> GIT 
+					</p>
+			</article>
 
 			<article>
 
@@ -63,14 +78,17 @@
 
 
 		</section>
-		<footer>
-			<p>
-				Strona internetowa Łukasz Łuczyński. l.luczynski85@wp.pl
-			</p>
-		</footer>
+		
 
 
 	</main>
+	
+	<footer>
+			<p>
+				Strona internetowa Łukasz Łuczyński. l.luczynski85@wp.pl  <br>
+				<a href="#top"> Przenieś na górę strony.
+			</p>
+		</footer>
 </body>
 
 </html>
