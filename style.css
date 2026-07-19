@@ -31,10 +31,18 @@ section a{
 	color:orange;
 }
 
+.my-article{
+	color: hotpink;
+}
+
 .my-article p{
 	background: #1460AA;
 	color:white;
 }
 #name{
 	color: red;
+}
+
+.about{
+	color:#26d907;  
 }
