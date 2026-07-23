@@ -1,5 +1,5 @@
-body{
-	background:#fefefe;
+body {
+	background: #fefefe;
 }
 
 h1 {
@@ -13,8 +13,8 @@ h2 {
 
 
 
-.czerwony{
-	color:red;
+.czerwony {
+	color: red;
 }
 
 #Jest_git {
@@ -23,26 +23,37 @@ h2 {
 
 
 
-a{
-	color:#fb18e8;
+a {
+	color: #fb18e8;
 }
 
-section a{
-	color:orange;
+section a {
+	color: orange;
 }
 
-.my-article{
+.my-article {
 	color: hotpink;
 }
 
-.my-article p{
-	background: #1460AA;
-	color:white;
+.praca_domowa {
+	color: #fb18e8;
+	background: black;
+
 }
-#name{
+
+.zainteresowanie {
+	background: #26d907;
+}
+
+.my-article p {
+	background: #1460AA;
+	color: white;
+}
+
+#name {
 	color: red;
 }
 
-.about{
-	color:#26d907;  
+.about {
+	color: #26d907;
 }
